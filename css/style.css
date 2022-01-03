@@ -1,0 +1,152 @@
+/* color 
+green shade:#102525
+light blue:#63c0c0
+black shade:#202222
+footer Background:#131414*/
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.container-fluid {
+    width: 100%;
+
+}
+
+/* header */
+.container_head {
+    background-color: #102525;
+    color: white;
+    box-shadow: -2px 6px 7px 0px #888888;
+    z-index: 999;
+
+}
+
+.header {
+
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    padding: 10px 0px;
+
+}
+
+/* .navBar {
+    display: flex;
+    justify-content: center;
+    
+} */
+
+.navBar a {
+    color: white;
+    text-decoration: none;
+    padding: 0px 5px;
+
+}
+
+.bellIcon {
+    border: 1px solid #63c0c0;
+    padding: 7px;
+    color: #63c0c0;
+}
+
+.profile {
+    display: flex;
+}
+/* .profile_img{
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+} */
+
+.ANC_body {
+    height: 80vh;
+}
+
+.sidebar {
+
+    background-color: #202222;
+    width: 300px;
+    color: white;
+    text-align: center;
+    height: 100%;
+    float: left;
+    z-index: 3;
+    box-shadow: 2px 0px 0px 0px #888888;
+
+}
+
+.course_management {
+    padding: 65px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li a {
+    display: block;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+    border: 2px solid #63c0c0;
+    margin: 4px 2px;
+    font-weight: 400;
+
+}
+
+li a.active {
+    background-color: #63c0c0;
+    color: #202222;
+    font-weight: 400;
+}
+
+li a:hover:not(.active) {
+    background-color: #63c0c0;
+    color: #202222;
+}
+
+.content {
+    background-color: #1a1a1a;
+    float: right;
+    /* background-color: #00ff15; */
+    width: calc(100% - 300px);
+    /* min-height: 100vh; */
+    z-index: 1;
+    height: 100%;
+}
+
+/* footer */
+.footer{
+    background-color: #102525;
+    color: white;
+    height:80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer_menu a{
+    color: white;
+    font-size: 10px;
+    text-decoration: none;
+    padding: 0px 5px;
+}
+.footer_left{
+   
+}
+.p_footer{
+    font-size: 10px;
+}
+
+.connect_us i{
+    background-color:#1a2929 ;
+    padding: 10px;
+    margin: 2px;
+}
